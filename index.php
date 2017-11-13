@@ -7,12 +7,9 @@ require_once 'issam.php';
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<<<<<<< HEAD
     <title>Title</title>
     <link rel="stylesheet" href="css/style.css">
-=======
     <title>AKEX</title>
->>>>>>> 438a6a565af05496271b28ab9d69c45dcbd1741b
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 </head>
 <body>
@@ -21,6 +18,17 @@ require_once 'issam.php';
     <div class="row">
         <div class="col-12" id="header_fiche">
             <h3>Fiche Etudiant : </h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="row">
+
+        </div>
+        <div class="row">
+
+        </div>
+        <div class="row">
+            
         </div>
     </div>
 </div>

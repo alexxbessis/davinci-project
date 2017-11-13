@@ -7,4 +7,14 @@
     color: white;
 }
 
+#infos_admin{
+    border: 1px solid cornflowerblue;
+    margin-top: 30px;
+}
+
+#coordonees{
+    border: 1px solid cornflowerblue;
+    margin-top: 30px;
+}
+
 /*Alex*/
