@@ -44,6 +44,38 @@
     </div>
 </nav>
 
+<div class="container">
+<div class="span">
+    <h3 class="page-title">
+        Tableau de bord Etudiant Issam DERRAR    </h3>
+
+    <ul class="breadcrumb small_margin">
+        <li>
+            <i class="fa fa-home" aria-hidden="true"></i>
+            <a href="/">Mon Tableau de bord</a>
+            <span class="icon-angle-right"></span>        </li>
+    </ul>
+</div>
+
+
+<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group mr-2 onglets" role="group" aria-label="First group">
+        <button type="button" class="btn btn-primary">1</button>
+        <button type="button" class="btn btn-inverse">2</button>
+        <button type="button" class="btn btn-warning">3</button>
+        <button type="button" class="btn btn-secondary">4</button>
+        <button type="button" class="btn btn-secondary">5</button>
+        <button type="button" class="btn btn-success">6</button>
+        <button type="button" class="btn btn-secondary">7</button>
+        <button type="button" class="btn btn-secondary">8</button>
+        <button type="button" class="btn btn-secondary">9</button>
+        <button type="button" class="btn btn-secondary">10</button>
+        <button type="button" class="btn btn-secondary">11</button>
+    </div>
+</div>
+
+</div>
+
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
