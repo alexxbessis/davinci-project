@@ -2,8 +2,12 @@
 
 
 /*Charles*/
-#header_fiche{
+.container{
     background-color: cornflowerblue;
+}
+
+#header_fiche{
+    background-color: black;
     color: white;
 }
 
