@@ -85,12 +85,25 @@ require_once 'issam.php';
                     </tbody>
                 </table>
             </div>
-            <div class="row-fluid">
+            <div class="row-fluid" id="groupes">
                 <div class="header_fiche col-12">
                    <h5> Mes groupes</h5>
                 </div>
                 <div class="row">
-
+                    <div class="col-4">
+                        <ul id="liste_annee">
+                            <li>
+                                <a href="">
+                                    <strong>2017-PAIIMWB2</strong>
+                                    <p>IIM - année 2 - AXE DEVELOPPEMENT WEB</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><strong>2016-PAIIMNS1</strong>
+                                    <p>IIM - ANNEE 1 - PREPARATOIRE</p></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
