@@ -1,11 +1,14 @@
 /*Issam*/
-
 .btn
 
 {
     padding-left:200px;
 }
 /*Charles*/
+
+#corps{
+    padding-top: 7px;
+}
 
 
 .header_fiche{
@@ -14,7 +17,7 @@
 }
 
 #grande_row{
-    background-color: brown;
+    background-color: darkgrey;
     height: 1000px;
 }
 
@@ -27,7 +30,7 @@
 }
 
 #liste_annee{
-    
+
 }
 
 /*Alex*/

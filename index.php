@@ -14,16 +14,16 @@ require_once 'issam.php';
 </head>
 <body>
 
-<div class="container">
+<div class="container-fluid" id="corps">
     <div class="row">
         <div class="col-12 header_fiche">
             <h3>Fiche Etudiant : </h3>
         </div>
     </div>
     <div class="row justify-content-center" id="grande_row">
-        <div class="row-fluid col-6">
+        <div class="row-fluid col-md-6 col-sm-12">
             <div class="row col-12">
-                <div class="col-4">
+                <div class="col-md-4 col-sm-12">
                     <div class="card">
                         <h6>
                             Identifiant
@@ -39,7 +39,7 @@ require_once 'issam.php';
                         <p>...</p>
                     </div>
                 </div>
-                <div class="col-5">
+                <div class="col-md-5 col-sm-12">
                     <div class="card">
                         <i class="fa fa-home"></i>
                         <i class="fa fa-phone"></i>
@@ -49,14 +49,14 @@ require_once 'issam.php';
                         <a href="#" role="button" class="btn btn-secondary btn-sm">Demande de changement</a>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-md-2 col-sm-12">
                     <div>
                         <img src="img/17IDERRAR.jpg" alt="">
                     </div>
                     <a href="#" class="btn btn-secondary btn-small offset-2">Changer</a>
                 </div>
             </div>
-            <div class=" col-12" id="tableau">
+            <div class="col-12" id="tableau">
                 <table class="table">
                     <thead>
                     <tr>
@@ -100,7 +100,8 @@ require_once 'issam.php';
                             </li>
                             <li>
                                 <a href=""><strong>2016-PAIIMNS1</strong>
-                                    <p>IIM - ANNEE 1 - PREPARATOIRE</p></a>
+                                    <p>IIM - ANNEE 1 - PREPARATOIRE</p>
+                                </a>
                             </li>
                         </ul>
                     </div>
