@@ -1,11 +1,36 @@
 /*Issam*/
 
+.btn
 
+{
+    padding-left:200px;
+}
 /*Charles*/
+.container{
+    background-color: cornflowerblue;
+}
 
+#header_fiche{
+    background-color: black;
+    color: white;
+}
 
+<<<<<<< HEAD
 /*Alex*/
 
+=======
+#infos_admin{
+    border: 1px solid cornflowerblue;
+    margin-top: 30px;
+}
+
+#coordonees{
+    border: 1px solid cornflowerblue;
+    margin-top: 30px;
+}
+
+/*Alex*/
+>>>>>>> 72fa6dcebdfe0bdda68ebcb644d0f00883188ef1
 .uploaded-img {
     padding-bottom: 50px;
     position: relative;
