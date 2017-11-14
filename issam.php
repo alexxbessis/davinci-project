@@ -46,34 +46,34 @@
 </nav>
 
 <div class="container">
-<div class="span">
-    <h3 class="page-title">
-        Tableau de bord Etudiant Issam DERRAR    </h3>
+    <div class="span">
+        <h3 class="page-title">
+            Tableau de bord Etudiant Issam DERRAR    </h3>
 
-    <ul class="breadcrumb small_margin">
-        <li>
-            <i class="fa fa-home" aria-hidden="true"></i>
-            <a href="/">Mon Tableau de bord</a>
-            <span class="icon-angle-right"></span>        </li>
-    </ul>
-</div>
-
-
-<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-    <div class="btn-group mr-2 onglets" role="group" aria-label="First group">
-        <a href="#" class="btn btn-primary">1</a>
-        <a href="#" class="btn btn-dark">2</a>
-        <a href="#" class="btn btn-warning">3</a>
-        <a href="#" class="btn btn-secondary">4</a>
-        <a href="#" class="btn btn-secondary">5</a>
-        <a href="#" class="btn btn-success">6</a>
-        <a href="#" class="btn btn-secondary">7</a>
-        <a href="#" class="btn btn-secondary">8</a>
-        <a href="#" class="btn btn-secondary">9</a>
-        <a href="#" class="btn btn-secondary">10</a>
-        <a href="#" class="btn btn-secondary">11</a>
+        <ul class="breadcrumb small_margin">
+            <li>
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <a href="/">Mon Tableau de bord</a>
+                <span class="icon-angle-right"></span>        </li>
+        </ul>
     </div>
-</div>
+
+
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group mr-2 onglets" role="group" aria-label="First group">
+            <a href="#" class="btn btn-primary">1</a>
+            <a href="#" class="btn btn-dark">2</a>
+            <a href="#" class="btn btn-warning">3</a>
+            <a href="#" class="btn btn-secondary">4</a>
+            <a href="#" class="btn btn-secondary">5</a>
+            <a href="#" class="btn btn-success">6</a>
+            <a href="#" class="btn btn-secondary">7</a>
+            <a href="#" class="btn btn-secondary">8</a>
+            <a href="#" class="btn btn-secondary">9</a>
+            <a href="#" class="btn btn-secondary">10</a>
+            <a href="#" class="btn btn-secondary">11</a>
+        </div>
+    </div>
 
 </div>
 
