@@ -6,23 +6,11 @@
     padding-left:200px;
 }
 /*Charles*/
-.container{
-    background-color: cornflowerblue;
-}
 
-#header_fiche{
+
+.header_fiche{
     background-color: black;
     color: white;
-}
-
-#infos_admin{
-    border: 1px solid cornflowerblue;
-    margin-top: 30px;
-}
-
-#coordonees{
-    border: 1px solid cornflowerblue;
-    margin-top: 30px;
 }
 
 #grande_row{
@@ -30,10 +18,6 @@
     height: 1000px;
 }
 
-
-#tableau{
-    margin-top: 10px;
-}
 
 /*Alex*/
 .uploaded-img {
