@@ -54,9 +54,10 @@ a:hover{ text-decoration: none; }
 /*Alex*/
 
 
-#infos_admin{
+#infos_admin {
     border: 1px solid cornflowerblue;
     margin-top: 30px;
+}
 
 #grande_row{
     background-color: darkgrey;
