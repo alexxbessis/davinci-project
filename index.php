@@ -17,9 +17,12 @@ require_once 'issam.php';
             <h3>Fiche Etudiant : </h3>
         </div>
     </div>
-    <div class="row justify-content-center" id="grande_row">
+    <div class="row justify-content-center">
         <div class="row-fluid col-md-6 col-sm-12">
-            <div class="row col-12">
+            <div class="header_fiche">
+                Information utiles
+            </div>
+            <div class="row col-11">
                 <div class="col-md-5 col-sm-12">
                     <div class="card">
                         <h6>
@@ -47,7 +50,7 @@ require_once 'issam.php';
                     </div>
                 </div>
                 <div class="col-md-1 col-sm-12 justify-content-sm-center">
-                    <div>
+                    <div class="">
                         <img src="img/17IDERRAR.jpg" alt="">
                     </div>
                     <a href="#" class="btn btn-secondary btn-small">Changer</a>
@@ -122,18 +125,47 @@ require_once 'issam.php';
             </div>
         </div>
         <div class="row col-md-6 col-sm-12" id="row_droite">
-            <div class=" offset-md-1 col-md-10 col-sm-12">
-                <ul class="list-group">
-                    <li class="list-group-item">Office 365</li>
-                    <li class="list-group-item">Moodle</li>
-                    <li class="list-group-item">Planning général</li>
-                    <li class="list-group-item">Promotion école</li>
-                    <li class="list-group-item">Learning center</li>
-                    <li class="list-group-item">Ressources info</li>
-                    <li class="list-group-item">Inscription sport</li>
-                    <li class="list-group-item">Occupation des salles</li>
-                </ul>
-
+            <div class=" offset-md-1 col-md-11 col-sm-12">
+                <div class="header_fiche">
+                    Prochains cours
+                </div>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Heure</th>
+                        <th scope="col">Salle</th>
+                        <th scope="col">Professeur</th>
+                        <th scope="col">Thème</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="list-group-item-warning">
+                        <th scope="row">20/11/2017</th>
+                        <td>14h</td>
+                        <td>E253</td>
+                        <td>Alexandre Tobia</td>
+                        <td>PHP/POO</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">21/11/2017</th>
+                        <td>13h</td>
+                        <td></td>
+                        <td></td>
+                        <td>Anglais</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">21/11/2017</th>
+                        <td>14h45</td>
+                        <td></td>
+                        <td></td>
+                        <td>Créativité et innovation</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="offset-md-1 col-md-11 col-sm-12">
+                
             </div>
         </div>
     </div>
@@ -143,5 +175,3 @@ require_once 'issam.php';
 require_once 'footer.php';
 
 ?>
-</body>
-</html>
