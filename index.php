@@ -7,40 +7,58 @@ require_once 'issam.php';
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <title>Accueil</title>
 </head>
 <body>
 
-<div class="container">
+<div class="container-fluid" id="corps">
     <div class="row">
-        <div class="col-12" id="header_fiche">
+        <div class="col-12 header_fiche">
             <h3>Fiche Etudiant : </h3>
         </div>
     </div>
-    <div class="row">
-        <div class="row">
-                <div class="btn btn-secondary col-6">
-                    <strong>Identifiant</strong>
-                    <p>...</p>
-                    <strong>Num.badge</strong>
-                    <p>...</p>
-                    <strong>ID Administratif</strong>
-                    <p>...</p>
+    <div class="row justify-content-center">
+        <div class="row-fluid col-md-6 col-sm-12">
+            <div class="header_fiche col-12">
+                <h5>Information utiles</h5>
+            </div>
+            <div class="row col-11">
+                <div class="col-md-5 col-sm-12">
+                    <div class="card">
+                        <h6>
+                            Identifiant
+                        </h6>
+                        <p>IDERRAR</p>
+                        <h6>
+                            Num. Badge
+                        </h6>
+                        <p>...</p>
+                        <h6>
+                            ID Administratif
+                        </h6>
+                        <p>...</p>
+                    </div>
                 </div>
-                <div class="btn btn-secondary col-6">
-
+                <div class="col-md-6 col-sm-12">
+                    <div class="card">
+                        <i class="fa fa-home"></i>
+                        <i class="fa fa-phone"></i>
+                        <i class="fa fa-mobile"></i>
+                        <i class="fa fa-envelope"></i>
+                        <i class="fa fa-envelope"></i>
+                        <a href="#" role="button" class="btn btn-secondary btn-sm">Demande de changement</a>
+                    </div>
                 </div>
-                <div class="col">
-                    <img src="" alt="">
-                    <a href="#" class="btn btn-secondary btn-sm">Changer</a>
+                <div class="col-md-1 col-sm-12 justify-content-sm-center">
+                    <div class="">
+                        <img src="img/17IDERRAR.jpg" alt="">
+                    </div>
+                    <a href="#" class="btn btn-secondary btn-small">Changer</a>
                 </div>
-            <!--
-            <div class="row">
-                <h6>Inscriptions aux programmes</h6>
+            </div>
+            <div class="col-md-12" id="tableau">
                 <table class="table">
-                    <thead class="thead-dark">
+                    <thead>
                     <tr>
                         <th>Programme</th>
                         <th>Année dans le cursus</th>
@@ -51,32 +69,112 @@ require_once 'issam.php';
                     </thead>
                     <tbody>
                     <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                        <th scope="row">PAIIMWB2</th>
+                        <td>ANNEE 2 - AXE DEVELOPPEMENT WEB</td>
+                        <td>2017</td>
+                        <td></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
+                        <th scope="row">PAIIMNS1</th>
+                        <td>ANNEE PREPARATOIRE</td>
+                        <td>2016</td>
+                        <td></td>
                         <td></td>
                     </tr>
                     </tbody>
                 </table>
             </div>
-            -->
+            <div class="row-fluid" id="groupes">
+                <div class="header_fiche col-12">
+                   <h5> Mes groupes</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul>
+                            <li class="card">
+                                <a href="#" class="card-body" role="button">
+                                    <strong>2017-PAIIMWB2</strong>
+                                    <p>IIM - année 2 - AXE DEVELOPPEMENT WEB</p>
+                                </a>
+                            </li>
+                            <li class="card">
+                                <a href="#" class="card-body">
+                                    <strong>2016-PAIIMNS1</strong>
+                                    <p>IIM - ANNEE 1 - PREPARATOIRE</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="offset-md-1 col-md-7">
+                        <div class="header_fiche">
+                            <h6>IIM - ANNEE 2 - AXE DEVELOPPEMENT WEB</h6>
+                        </div>
+                        <div>
+                            <ul class="list-group">
+                                <li class="list-group-item">IIM-2-DW-1</li>
+                                <li class="list-group-item">IIM-2-DW</li>
+                                <li class="list-group-item">SK29</li>
+                                <li class="list-group-item">MIIMLV210117 COURS LV AN06</li>
+                                <li class="list-group-item">MMIASPS-0017 - BXA2</li>
+                                <li class="list-group-item">COOP12</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
+        <div class="row-fluid col-md-6 col-sm-12">
+            <div class=" offset-md-1 col-md-11 col-sm-12">
+                <div class="header_fiche">
+                    <h5>Prochains cours</h5>
+                </div>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Heure</th>
+                        <th scope="col">Salle</th>
+                        <th scope="col">Professeur</th>
+                        <th scope="col">Thème</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="list-group-item-warning">
+                        <th scope="row">20/11/2017</th>
+                        <td>14h</td>
+                        <td>E253</td>
+                        <td>Alexandre Tobia</td>
+                        <td>PHP/POO</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">21/11/2017</th>
+                        <td>13h</td>
+                        <td></td>
+                        <td></td>
+                        <td>Anglais</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">21/11/2017</th>
+                        <td>14h45</td>
+                        <td></td>
+                        <td></td>
+                        <td>Créativité et innovation</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="offset-md-1 col-md-11 col-sm-12">
+                <div class="header_fiche col-12">
+                    <h5>Nouvelles offres de stage</h5>
+                </div>
 
+            </div>
         </div>
     </div>
 </div>
+<?php
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-</body>
-</html>
+require_once 'footer.php';
+
+?>

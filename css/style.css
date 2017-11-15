@@ -1,20 +1,22 @@
 /*Issam*/
-
 .btn
 
 {
     padding-left:200px;
 }
 /*Charles*/
-.container{
-    background-color: cornflowerblue;
+
+#corps{
+    padding-top: 7px;
 }
 
-#header_fiche{
+
+.header_fiche{
     background-color: black;
     color: white;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /*Alex*/
 
@@ -22,11 +24,18 @@
 #infos_admin{
     border: 1px solid cornflowerblue;
     margin-top: 30px;
+=======
+#grande_row{
+    background-color: darkgrey;
 }
 
-#coordonees{
-    border: 1px solid cornflowerblue;
-    margin-top: 30px;
+#tableau{
+    padding-top: 30px;
+>>>>>>> 7331e017cf891f2b65daca3214c30a84cd8116ef
+}
+
+#groupes{
+    padding-top: 30px;
 }
 
 /*Alex*/

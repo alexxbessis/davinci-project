@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/50c50d149f.js"></script>
 </head>
@@ -39,40 +40,39 @@
                     <a class="dropdown-item" href="#">Something else here</a>
                 </div>
             </li>
-
         </ul>
     </div>
 </nav>
 
 <div class="container">
-<div class="span">
-    <h3 class="page-title">
-        Tableau de bord Etudiant Issam DERRAR    </h3>
+    <div class="span">
+        <h3 class="page-title">
+            Tableau de bord Etudiant Issam DERRAR    </h3>
 
-    <ul class="breadcrumb small_margin">
-        <li>
-            <i class="fa fa-home" aria-hidden="true"></i>
-            <a href="/">Mon Tableau de bord</a>
-            <span class="icon-angle-right"></span>        </li>
-    </ul>
-</div>
-
-
-<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-    <div class="btn-group mr-2 onglets" role="group" aria-label="First group">
-        <button type="button" class="btn btn-primary">1</button>
-        <button type="button" class="btn btn-inverse">2</button>
-        <button type="button" class="btn btn-warning">3</button>
-        <button type="button" class="btn btn-secondary">4</button>
-        <button type="button" class="btn btn-secondary">5</button>
-        <button type="button" class="btn btn-success">6</button>
-        <button type="button" class="btn btn-secondary">7</button>
-        <button type="button" class="btn btn-secondary">8</button>
-        <button type="button" class="btn btn-secondary">9</button>
-        <button type="button" class="btn btn-secondary">10</button>
-        <button type="button" class="btn btn-secondary">11</button>
+        <ul class="breadcrumb small_margin">
+            <li>
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <a href="/">Mon Tableau de bord</a>
+                <span class="icon-angle-right"></span>        </li>
+        </ul>
     </div>
-</div>
+
+
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group mr-2 onglets" role="group" aria-label="First group">
+            <a href="index.php" class="btn btn-primary">Fiche Etudiant</a>
+            <a href="#" class="btn btn-dark">Mon EDT</a>
+            <a href="absence.php" class="btn btn-warning">Mes Absences</a>
+            <a href="#" class="btn btn-secondary">Mes Notes</a>
+            <a href="https://alexandrebessis.com/" class="btn btn-secondary">Mes Cours</a>
+            <a href="documents.php" class="btn btn-success">Mes Documents</a>
+            <a href="#" class="btn btn-secondary">7</a>
+            <a href="#" class="btn btn-secondary">8</a>
+            <a href="#" class="btn btn-secondary">9</a>
+            <a href="#" class="btn btn-secondary">10</a>
+            <a href="#" class="btn btn-secondary">11</a>
+        </div>
+    </div>
 
 </div>
 
@@ -80,5 +80,3 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-</body>
-</html>
