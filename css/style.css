@@ -1,9 +1,5 @@
 /*Issam*/
-.btn
 
-{
-    padding-left:200px;
-}
 /*Charles*/
 
 #corps{
@@ -16,12 +12,22 @@
     color: white;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+/*Alex*/
+
+=======
+#infos_admin{
+    border: 1px solid cornflowerblue;
+    margin-top: 30px;
+=======
 #grande_row{
     background-color: darkgrey;
 }
 
 #tableau{
     padding-top: 30px;
+>>>>>>> 7331e017cf891f2b65daca3214c30a84cd8116ef
 }
 
 #groupes{
@@ -29,6 +35,7 @@
 }
 
 /*Alex*/
+>>>>>>> 72fa6dcebdfe0bdda68ebcb644d0f00883188ef1
 .uploaded-img {
     padding-bottom: 50px;
     position: relative;
