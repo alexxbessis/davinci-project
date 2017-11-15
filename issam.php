@@ -60,12 +60,12 @@
 
     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
         <div class="btn-group mr-2 onglets" role="group" aria-label="First group">
-            <a href="#" class="btn btn-primary">1</a>
-            <a href="#" class="btn btn-dark">2</a>
-            <a href="#" class="btn btn-warning">3</a>
-            <a href="#" class="btn btn-secondary">4</a>
-            <a href="#" class="btn btn-secondary">5</a>
-            <a href="#" class="btn btn-success">6</a>
+            <a href="index.php" class="btn btn-primary">Fiche Etudiant</a>
+            <a href="#" class="btn btn-dark">Mon EDT</a>
+            <a href="absence.php" class="btn btn-warning">Mes Absences</a>
+            <a href="#" class="btn btn-secondary">Mes Notes</a>
+            <a href="#" class="btn btn-secondary">Mes Cours</a>
+            <a href="documents.php" class="btn btn-success">Mes Documents</a>
             <a href="#" class="btn btn-secondary">7</a>
             <a href="#" class="btn btn-secondary">8</a>
             <a href="#" class="btn btn-secondary">9</a>
