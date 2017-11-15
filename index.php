@@ -7,10 +7,9 @@ require_once 'issam.php';
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Accueil</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <script src="https://use.fontawesome.com/50c50d149f.js"></script>
 </head>
 <body>
 
@@ -90,20 +89,23 @@ require_once 'issam.php';
                    <h5> Mes groupes</h5>
                 </div>
                 <div class="row">
-                    <div class="col-4">
-                        <ul id="liste_annee">
+                    <div class="col-md-4">
+                        <ul class="liste">
                             <li>
-                                <a href="">
+                                <a href="#" class="btn btn-primary" role="button">
                                     <strong>2017-PAIIMWB2</strong>
                                     <p>IIM - année 2 - AXE DEVELOPPEMENT WEB</p>
                                 </a>
                             </li>
                             <li>
-                                <a href=""><strong>2016-PAIIMNS1</strong>
+                                <a href="#" class="btn btn-secondary" role="button"><strong>2016-PAIIMNS1</strong>
                                     <p>IIM - ANNEE 1 - PREPARATOIRE</p>
                                 </a>
                             </li>
                         </ul>
+                    </div>
+                    <div class="col-md-6">
+
                     </div>
                 </div>
             </div>
@@ -117,5 +119,6 @@ require_once 'issam.php';
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/50c50d149f.js"></script>
 </body>
 </html>

@@ -29,8 +29,8 @@
     padding-top: 30px;
 }
 
-#liste_annee{
-
+.liste{
+    list-style: none;
 }
 
 /*Alex*/
