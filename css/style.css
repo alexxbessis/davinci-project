@@ -237,7 +237,23 @@ a.navbar-brand {
     background-color: black;
     color: white;
 }
+/*Alex*/
 
+#infos_admin {
+    border: 1px solid cornflowerblue;
+    margin-top: 30px;
+}
+#grande_row{
+    background-color: darkgrey;
+}
+
+#tableau{
+    padding-top: 30px;
+}
+
+#groupes{
+    padding-top: 30px;
+}
 /*Alex*/
 .uploaded-img {
     padding-bottom: 50px;
