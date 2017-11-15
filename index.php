@@ -53,7 +53,7 @@ require_once 'issam.php';
                     <a href="#" class="btn btn-secondary btn-small">Changer</a>
                 </div>
             </div>
-            <div class="col-12" id="tableau">
+            <div class="col-md-12" id="tableau">
                 <table class="table">
                     <thead>
                     <tr>
@@ -89,29 +89,59 @@ require_once 'issam.php';
                 <div class="row">
                     <div class="col-md-4">
                         <ul class="liste">
-                            <li>
-                                <a href="#" class="btn btn-primary" role="button">
+                            <li class="card">
+                                <a href="#" class="card-body" role="button">
                                     <strong>2017-PAIIMWB2</strong>
                                     <p>IIM - année 2 - AXE DEVELOPPEMENT WEB</p>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" class="btn btn-secondary" role="button"><strong>2016-PAIIMNS1</strong>
+                            <li class="card">
+                                <a href="#" class="card-body">
+                                    <strong>2016-PAIIMNS1</strong>
                                     <p>IIM - ANNEE 1 - PREPARATOIRE</p>
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6">
-
+                    <div class="offset-md-1 col-md-7">
+                        <div class="header_fiche">
+                            <h6>IIM - ANNEE 2 - AXE DEVELOPPEMENT WEB</h6>
+                        </div>
+                        <div>
+                            <ul class="list-group">
+                                <li class="list-group-item">IIM-2-DW-1</li>
+                                <li class="list-group-item">IIM-2-DW</li>
+                                <li class="list-group-item">SK29</li>
+                                <li class="list-group-item">MIIMLV210117 COURS LV AN06</li>
+                                <li class="list-group-item">MMIASPS-0017 - BXA2</li>
+                                <li class="list-group-item">COOP12</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row col-md-6 col-sm-12" id="row_droite">
-          
+            <div class=" offset-md-1 col-md-10 col-sm-12">
+                <ul class="list-group">
+                    <li class="list-group-item">Office 365</li>
+                    <li class="list-group-item">Moodle</li>
+                    <li class="list-group-item">Planning général</li>
+                    <li class="list-group-item">Promotion école</li>
+                    <li class="list-group-item">Learning center</li>
+                    <li class="list-group-item">Ressources info</li>
+                    <li class="list-group-item">Inscription sport</li>
+                    <li class="list-group-item">Occupation des salles</li>
+                </ul>
+
+            </div>
         </div>
     </div>
 </div>
+<?php
+
+require_once 'footer.php';
+
+?>
 </body>
 </html>

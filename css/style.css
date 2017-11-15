@@ -17,8 +17,7 @@
 }
 
 #grande_row{
-    background-color: brown;
-    height: 1000px;
+    background-color: darkgrey;
 }
 
 #tableau{
@@ -27,10 +26,6 @@
 
 #groupes{
     padding-top: 30px;
-}
-
-.liste{
-    list-style: none;
 }
 
 /*Alex*/
