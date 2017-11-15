@@ -26,7 +26,7 @@
                                       <div class="abslt-text">
                                       	<h4>Reglement Interieur</h4>
                                           <p>IIM 2017-2018</p>
-                                             <a href="src/reglement-interieur.pdf" download><span>Voir Document</span></a>
+                                             <a href="src/reglement-interieur.pdf" download><span>Télécharger document</span></a>
                                       </div>
                                   </a>
                                   </div>
@@ -48,7 +48,7 @@
                                       <div class="abslt-text">
                                           <h4>Reglement Pedagogique</h4>
                                           <p>IIM 2017-2018</p>
-                                          <a href="src/reglement-pedagogique.pdf" download><span>Voir Document</span></a>
+                                          <a href="src/reglement-pedagogique.pdf" download><span>Télécharger document</span></a>
                                       </div>
                                   </a>
                                   </div>
@@ -71,7 +71,7 @@
                                       <div class="abslt-text">
                                           <h6>Reglement Interieur CG 92 applicable</h6>
                                           <p>au 16/08/2016</p>
-                                          <a href="src/reglement-interieur-CG92.pdf" download><span>Voir Document</span></a>
+                                          <a href="src/reglement-interieur-CG92.pdf" download><span>Télécharger document</span></a>
                                       </div>
                                   </a>
                                   </div>
@@ -94,7 +94,7 @@
                                       <div class="abslt-text">
                                           <h4>Charte Informatique</h4>
                                           <p>Etudiants</p>
-                                          <a href="src/charte-informatique-etudiants.pdf" download><span>Voir Document</span></a>
+                                          <a href="src/charte-informatique-etudiants.pdf" download><span>Télécharger document</span></a>
                                       </div>
                                   </a>
                                   </div>
