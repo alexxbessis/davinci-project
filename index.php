@@ -11,13 +11,13 @@ require_once 'issam.php';
 </head>
 <body>
 
-<div class="container-fluid" id="corps">
-    <div class="row">
+<div class="container-fluid">
+    <div class="row-fluid">
         <div class="col-12 header_fiche">
             <h3>Fiche Etudiant : </h3>
         </div>
     </div>
-    <div class="row justify-content-center">
+    <div class="row-fluid justify-content-center">
         <div class="row-fluid">
             <div class="header_fiche">
                 <h5>Information utiles</h5>
@@ -125,7 +125,7 @@ require_once 'issam.php';
             </div>
         </div>
         <div class="row-fluid">
-            <div class="offset-md-1 col-md-11 col-sm-12">
+            <div class="col-12">
                 <div class="header_fiche">
                     <h5>Prochains cours</h5>
                 </div>
@@ -164,7 +164,7 @@ require_once 'issam.php';
                     </tbody>
                 </table>
             </div>
-            <div class="offset-md-1 col-md-11 col-sm-12">
+            <div class="col-12">
                 <div class="header_fiche col-12">
                     <h5>Association etudiante</h5>
                 </div>

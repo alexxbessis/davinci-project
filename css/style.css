@@ -238,6 +238,12 @@ a.navbar-brand {
     background-color: black;
     color: white;
 }
+
+#footer{
+    padding-top: 60px;
+    background-color: #adadad;
+}
+
 /*Alex*/
 
 #infos_admin {
