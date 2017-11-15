@@ -9,7 +9,7 @@
 <body>
   <div class="col-md-12">
   <div class="uploaded-doc">
-                          <div class="row ">
+                          <div class="row">
 
                               <div class="col-md-2 col-sm-4 padding15">
                               	<div class="uploaded-img">
