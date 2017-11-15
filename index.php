@@ -18,11 +18,11 @@ require_once 'issam.php';
         </div>
     </div>
     <div class="row justify-content-center">
-        <div class="row-fluid col-md-6 col-sm-12">
-            <div class="header_fiche col-12">
+        <div class="row-fluid">
+            <div class="header_fiche">
                 <h5>Information utiles</h5>
             </div>
-            <div class="row col-11">
+            <div class="row">
                 <div class="col-md-5 col-sm-12">
                     <div class="card">
                         <h6>
@@ -41,15 +41,15 @@ require_once 'issam.php';
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="card">
-                        <i class="fa fa-home"></i>
-                        <i class="fa fa-phone"></i>
-                        <i class="fa fa-mobile"></i>
+                        <i class="fa fa-home"></i><p>5 rue Issam</p>
+                        <i class="fa fa-phone"></i><p>06 78 56 49 45</p>
+                        <i class="fa fa-mobile"></i><p>01 78 56 49 45</p>
                         <i class="fa fa-envelope"></i>
                         <i class="fa fa-envelope"></i>
                         <a href="#" role="button" class="btn btn-secondary btn-sm">Demande de changement</a>
                     </div>
                 </div>
-                <div class="col-md-1 col-sm-12 justify-content-sm-center">
+                <div class="col-sm-12 justify-content-sm-center">
                     <div class="">
                         <img src="img/17IDERRAR.jpg" alt="">
                     </div>
@@ -85,21 +85,21 @@ require_once 'issam.php';
                     </tbody>
                 </table>
             </div>
-            <div class="row-fluid" id="groupes">
+            <div class="row-fluid">
                 <div class="header_fiche col-12">
                    <h5> Mes groupes</h5>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <ul>
-                            <li class="card">
-                                <a href="#" class="card-body" role="button">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="#">
                                     <strong>2017-PAIIMWB2</strong>
                                     <p>IIM - année 2 - AXE DEVELOPPEMENT WEB</p>
                                 </a>
                             </li>
-                            <li class="card">
-                                <a href="#" class="card-body">
+                            <li class="list-group-item">
+                                <a href="#">
                                     <strong>2016-PAIIMNS1</strong>
                                     <p>IIM - ANNEE 1 - PREPARATOIRE</p>
                                 </a>
@@ -124,8 +124,8 @@ require_once 'issam.php';
                 </div>
             </div>
         </div>
-        <div class="row-fluid col-md-6 col-sm-12">
-            <div class=" offset-md-1 col-md-11 col-sm-12">
+        <div class="row-fluid">
+            <div class="offset-md-1 col-md-11 col-sm-12">
                 <div class="header_fiche">
                     <h5>Prochains cours</h5>
                 </div>
@@ -166,9 +166,24 @@ require_once 'issam.php';
             </div>
             <div class="offset-md-1 col-md-11 col-sm-12">
                 <div class="header_fiche col-12">
-                    <h5>Nouvelles offres de stage</h5>
+                    <h5>Association etudiante</h5>
                 </div>
-
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Association</th>
+                        <th scope="col">Année scolaire</th>
+                        <th scope="col">Fonction</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">Devinci junior</th>
+                        <td>2017-2018</td>
+                        <td>Président</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
