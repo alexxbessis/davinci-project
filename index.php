@@ -19,8 +19,8 @@ require_once 'issam.php';
     </div>
     <div class="row justify-content-center">
         <div class="row-fluid col-md-6 col-sm-12">
-            <div class="header_fiche">
-                Information utiles
+            <div class="header_fiche col-12">
+                <h5>Information utiles</h5>
             </div>
             <div class="row col-11">
                 <div class="col-md-5 col-sm-12">
@@ -91,7 +91,7 @@ require_once 'issam.php';
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <ul class="liste">
+                        <ul>
                             <li class="card">
                                 <a href="#" class="card-body" role="button">
                                     <strong>2017-PAIIMWB2</strong>
@@ -124,10 +124,10 @@ require_once 'issam.php';
                 </div>
             </div>
         </div>
-        <div class="row col-md-6 col-sm-12" id="row_droite">
+        <div class="row-fluid col-md-6 col-sm-12">
             <div class=" offset-md-1 col-md-11 col-sm-12">
                 <div class="header_fiche">
-                    Prochains cours
+                    <h5>Prochains cours</h5>
                 </div>
                 <table class="table">
                     <thead>
@@ -165,7 +165,10 @@ require_once 'issam.php';
                 </table>
             </div>
             <div class="offset-md-1 col-md-11 col-sm-12">
-                
+                <div class="header_fiche col-12">
+                    <h5>Nouvelles offres de stage</h5>
+                </div>
+
             </div>
         </div>
     </div>

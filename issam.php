@@ -40,7 +40,6 @@
                     <a class="dropdown-item" href="#">Something else here</a>
                 </div>
             </li>
-
         </ul>
     </div>
 </nav>
@@ -65,7 +64,7 @@
             <a href="#" class="btn btn-dark">Mon EDT</a>
             <a href="absence.php" class="btn btn-warning">Mes Absences</a>
             <a href="#" class="btn btn-secondary">Mes Notes</a>
-            <a href="#" class="btn btn-secondary">Mes Cours</a>
+            <a href="https://alexandrebessis.com/" class="btn btn-secondary">Mes Cours</a>
             <a href="documents.php" class="btn btn-success">Mes Documents</a>
             <a href="#" class="btn btn-secondary">7</a>
             <a href="#" class="btn btn-secondary">8</a>
