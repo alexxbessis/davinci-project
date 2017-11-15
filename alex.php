@@ -26,7 +26,7 @@
                                       <div class="abslt-text">
                                       	<h4>Reglement Interieur</h4>
                                           <p>IIM 2017-2018</p>
-                                             <a href="src/reglement-interieur.pdf" download><span>Voir Document</span></a>
+                                             <a href="src/reglement-interieur.pdf" download><span>Telecharger</span></a>
                                       </div>
                                   </a>
                                   </div>
