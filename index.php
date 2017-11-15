@@ -23,7 +23,7 @@ require_once 'issam.php';
     <div class="row justify-content-center" id="grande_row">
         <div class="row-fluid col-md-6 col-sm-12">
             <div class="row col-12">
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-5 col-sm-12">
                     <div class="card">
                         <h6>
                             Identifiant
@@ -39,7 +39,7 @@ require_once 'issam.php';
                         <p>...</p>
                     </div>
                 </div>
-                <div class="col-md-5 col-sm-12">
+                <div class="col-md-6 col-sm-12">
                     <div class="card">
                         <i class="fa fa-home"></i>
                         <i class="fa fa-phone"></i>
@@ -49,11 +49,11 @@ require_once 'issam.php';
                         <a href="#" role="button" class="btn btn-secondary btn-sm">Demande de changement</a>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-12">
+                <div class="col-md-1 col-sm-12 justify-content-sm-center">
                     <div>
                         <img src="img/17IDERRAR.jpg" alt="">
                     </div>
-                    <a href="#" class="btn btn-secondary btn-small offset-2">Changer</a>
+                    <a href="#" class="btn btn-secondary btn-small">Changer</a>
                 </div>
             </div>
             <div class="col-12" id="tableau">
@@ -108,8 +108,8 @@ require_once 'issam.php';
                 </div>
             </div>
         </div>
-        <div class="row col-6 no-gutters" id="row_droite">
-
+        <div class="row col-md-6 col-sm-12" id="row_droite">
+          
         </div>
     </div>
 </div>
