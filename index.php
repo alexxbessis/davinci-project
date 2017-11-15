@@ -1,7 +1,6 @@
 <?php
 
 require_once 'issam.php';
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +9,6 @@ require_once 'issam.php';
     <title>Accueil</title>
 </head>
 <body>
-
 <div class="container-fluid">
     <div class="row-fluid">
         <div class="col-12 header_fiche">
@@ -39,7 +37,7 @@ require_once 'issam.php';
                         <p>...</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12">
+                <div class="col-5">
                     <div class="card">
                         <i class="fa fa-home"></i><p>5 rue Issam</p>
                         <i class="fa fa-phone"></i><p>06 78 56 49 45</p>
@@ -49,7 +47,7 @@ require_once 'issam.php';
                         <a href="#" role="button" class="btn btn-secondary btn-sm">Demande de changement</a>
                     </div>
                 </div>
-                <div class="col-sm-12 justify-content-sm-center">
+                <div class="col-1 justify-content-sm-center">
                     <div class="">
                         <img src="img/17IDERRAR.jpg" alt="">
                     </div>
