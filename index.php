@@ -91,7 +91,7 @@ require_once 'issam.php';
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <ul class="liste">
+                        <ul>
                             <li class="card">
                                 <a href="#" class="card-body" role="button">
                                     <strong>2017-PAIIMWB2</strong>
